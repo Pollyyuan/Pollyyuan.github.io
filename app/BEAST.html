@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=720,user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="css/BEAST.css"/>
+		<script type="text/javascript" src="js/tools.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<section id="anmition" class="close showPage"></section>
+		<section id="warp" class="close">
+			<!--导航条头部-->
+			<header class="head"> 
+				<section class="head_nav"id="hnav">
+					<a href="javascript:;" class="left">
+						<span><img src="img/sm-3.png"/></span>
+					</a>
+					<a href="javascript:;" class="sou" id="indexshop">
+						<span><img src="img/sm-2.jpg"/></span>
+					</a>
+					<a href="javascript:;" class="sou">
+						<span><img src="img/sm-1.jpg"/></span>
+					</a>
+				</section>
+				<!--导航条简介-->
+				<section class="head_title">
+					<span class="head_log"></span>
+					<ul class="head_list">
+						<li>
+							<a href="javascript:;"><h3>上新</h3></a>
+						</li>
+						<li>
+							<a href="javascript:;"><h3>热门</h3></a>
+						</li>
+						<li>
+							<a href="javascript:;"><h3>定制</h3></a>
+						</li>
+					</ul>
+				</section>
+			</header> 
+			<!--轮播图-->
+			<section class="head_banner">
+				<ul id="banner"></ul>
+			</section>
+			<section class="time">
+				<p class="beast_title">BEAST DAILY</p>
+				<section class="beast_time" id="time"></section>
+			</section>
+			<section class="daily" id="list"></section>
+			<section class="li">
+				<section class="daily_li"></section>
+				<section class="daily_nav">
+					<p>EDITOR’S PICKS</p>
+					<span>编辑推荐</span>
+				</section>
+			</section>
+			<section id="fot_fo">
+				<section class="fot_ul">
+					<ul id="fot_lis"></ul>
+				</section>
+			</section>
+			<footer id="fot_nav">
+				<ul id="list_fot"></ul>
+			</footer>
+			<!--右边的侧边栏-->
+			<section id="left_login">  
+				<section class="login_nav">
+					<section class="login_a">
+						<span></span>
+						<a href="javascript:;"  id="loga">登陆 / 快速注册 ▹</a>
+						<a href="javascript:;" class="close" id="close">×</a>
+					</section>
+				</section>
+				<ul id="login_list"></ul>
+			</section>
+		</section>
+		<section id="user" class="close">
+			<section class="head_bg">
+				<a href="javascript:;">
+					<span class="return" id="return"></span>
+					<span></span>
+					<p>亲爱的居民，欢迎回来</p>
+				</a>
+			</section>
+			<section class="phone" id="phone">
+				<a href="javascript:;" class="active">手机号</a>
+				<span></span>
+				<a href="javascript:;">邮箱</a>
+			</section>
+			<section class="userAgen">
+				<section class="gent" id="gent">
+					<span> + 86</span>
+					<section class="gebox">
+						<a href="javascript:;" class="show" id="show">中国大陆</a>
+						<section class="lie">
+							<ul>
+								<li>中国大陆</li>
+								<li>中国香港</li>
+								<li>中国台湾</li>
+								<li>中国美国</li>
+							</ul>
+						</section>
+					</section>
+				</section>
+				<input type="text" placeholder="请输入手机号码" id="text"/>
+				<input type="password" placeholder="请输入密码" id="pass"/>
+				<a href="javascript:;" id="forget"><p>忘记密码</p></a>
+				<input type="button" id="btns" value="登录" />
+			</section>
+			<section class="partner"></section>
+		</section>
+		<section id="shop"class="close">
+			<section class="head" id="henav">
+				<a href="javascript:;" class="left" id="hui">
+					<span><img src="img/you.jpg"/></span>
+				</a>
+				<p id="shoptitles">购物车</p>
+				<a href="javascript:;" class="sou" id="biglo">
+					<span><img src="img/sm-2.jpg"/></span>
+					<span id="shopnum">1</span>
+				</a>
+				<a href="javascript:;" class="sou">
+					<span><img src="img/sm-1.jpg"/></span>
+				</a>
+			</section>
+			<section class="pailie">
+				<ul id="paili">
+					<li>
+						<a href="javascript:;">上架时间</a>
+					</li>
+					<li>
+						<a href="javascript:;">商品价格</a>
+					</li>
+					<li>
+						<a href="javascript:;">筛选</a>
+					</li>
+				</ul>
+			</section>
+			<section id="fot_shop" class="fot-fo"></section>
+			<section class="shops"></section>
+		</section>
+		<section id="shopcar" class="close">
+			<section class="head" id="henav">
+				<a href="javascript:;" class="left" id="huishop">
+					<span><img src="img/you.jpg"/></span>
+				</a>
+				<p id="shoptitle">购物车</p>
+				<a href="javascript:;" class="f">编辑</a>
+			</section>
+			<section id="shoplist">
+				<section class="listnav">
+					<p id="all">
+						<input type="button" name="" id="allcho" value="" />
+						全选
+						<span>满99免邮</span>
+					</p>
+				</section>
+				<section id="listshop">
+					<ul id="myfood"></ul>
+				</section>
+				<section class="simple">
+					<section class="listmi">
+						<span>别的居民也在看</span>
+					</section>
+					<section id="mishop"></section>
+				</section>
+				<footer id="getmoney">
+					<section class="allmoney">
+						<p>总计 : <span id="allmon">00.00</span></p>
+						<a href="javascript:;" id="finimon">结算<span id="finnum">(0)</span></a>
+					</section>
+				</footer>
+			</section>
+		</section>
+		<section id="shopintro"class="close">
+			<section class="head" id="henav">
+				<a href="javascript:;" class="left" id="leftreturn">
+					<span><img src="img/you.jpg"/></span>
+				</a>
+				<p id="shoptitle">购物车</p>
+				<a href="javascript:;" class="sou">
+					<span><img src="img/sm-4.jpg"/></span>
+				</a>
+				<a href="javascript:;" class="sou">
+					<span><img src="img/sm-3.jpg"/></span>
+				</a>
+			</section>
+			<section class="shopbanner" id="shopbanner">
+				<ul id="shop_ban"></ul>
+				<section class="shopinfo" id="shopinfo"></section>
+				<section class="prime">
+					<ul class="primeli">
+						<li><span><img src="img/use.png"/></span>正品保证</li>
+						<li><span><img src="img/use.png"/></span>香港直邮</li>
+						<li><span><img src="img/use.png"/></span>价格已含税</li>
+					</ul>
+				</section>
+				<section class="shop_cont" id="shop_cont"></section>
+			</section>
+			<section class="footer">
+				<a href="javascript:;" class="sou" id="newgouwu">
+					<span><img src="img/sm-2.jpg"/></span>
+					<span id="num">1</span>
+				</a>
+				<ul id="foots">
+					<li>
+						<a href="javascript:;">立刻购买</a>
+					</li>
+					<li>
+						<a href="javascript:;">加入购物车</a>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section id="order" class="close">
+			<section class="head" id="henav">
+				<a href="javascript:;" class="left" id="black">
+					<span><img src="img/you.jpg"/></span>
+				</a>
+				<p id="shoptitle">确认订单</p>
+			</section>
+			<section class="message">
+				<ul id="shopplace">
+					<li>
+						<a href="javascript:;">添加收货地址</a>
+						<a href="javascript:;" class="right">></a>
+					</li>
+					<li>
+						<a href="javascript:;">身份验证信息</a>
+						<a href="javascript:;" class="right">未上传 ></a>
+					</li>
+				</ul>
+			</section>
+			<section class="hint" id="hint"></section>
+			<section class="coupon">
+				<ul id="shopplace">
+					<li>
+						<a href="javascript:;">优惠券</a>
+						<a href="javascript:;" class="right">4张可用 ></a>
+					</li>
+					<li>
+						<a href="javascript:;">请输入验证码</a>
+						<a href="javascript:;" class="black">兑换</a>
+					</li>
+				</ul>
+				<section class="finish" id="finish">
+					<p>确认订单</p>
+					<input type="button"/>
+				</section>
+			</section>
+			<section class="wind" id="wind"></section>
+		</section>
+		<section id="own" class="close">
+			<section id="usename">
+				<h1 id="usetitle">dff<span> ,您好！</span></h1>
+				<ul class="usemessage">
+					<li><a href="javascript:;">个人资料</a></li>
+					<li><a href="javascript:;">积分<span>0</span>分</a></li>
+					<li><a href="javascript:;">我的二维码</a></li>
+				</ul>
+			</section>
+			<section id="useshow">
+				<ul id="shownub">
+					<li><a href="javascript:;">全部订单</a></li>
+					<li><a href="javascript:;">购物车</a></li>
+					<li><a href="javascript:;">我的优惠券</a></li>
+					<li><a href="javascript:;">我的收藏</a></li>
+				</ul>
+			</section>
+			<footer id="fon">
+				<ul id="lif"></ul>
+			</footer>
+		</section>
+		
+		<script type="text/javascript" src="js/Data.js"></script>
+		<script type="text/javascript" src="js/Beastanim.js"></script>
+		<script type="text/javascript">
+			showAnmi()
+
+		</script>
+	</body>
+</html>
